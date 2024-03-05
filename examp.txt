@@ -1,0 +1,6 @@
+WHERE
+SELECT tanim, miktar, tarih
+FROM butce
+WHERE tarih BETWEEN '2024-01-01' AND '2024-12-31'
+ORDER BY miktar ASC
+LIMIT 1;
